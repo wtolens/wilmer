@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+} 
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
